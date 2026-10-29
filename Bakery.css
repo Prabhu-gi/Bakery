@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 80px;
+    background-color: rgb(210, 150, 160);
+}
+.nav{
+    display:flex;
+    gap: 15px;
+    color: white;
+}
+li{
+    list-style: none;
+}
+
+.symbols{
+    display: flex;
+    gap: 18px;
+    
+}
+.bakery,.symbols{
+    font-size:1.6rem;
+    color: white;
+}
+.nav{
+    font-size: 1.2rem;
+}
+.nav  :hover{
+    color: rgba(0, 0, 0, 0.756);
+    cursor:pointer ;
+}
+.symbols :hover{
+    color: rgba(0, 0, 0, 0.762);
+        cursor:pointer ;
+
+}
+.slideImages{
+    height: 100vh;
+}
+.themeCake{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;   
+}
+.themeCakes{
+    height: 300px;
+    width:26%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    transition: transform 0.6s ease;
+    border-radius: 8px;
+}
+.enlarge{
+   height: 100%;
+   width: 100%;
+}
+ img[alt~="cakes"]
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+     border-radius: 5px;
+
+}
+ .themeCakes:hover
+{
+    transform: scale(1.1);
+}
+.menuHead{
+    height: 100vh;
+}
+#TheBakery{
+    text-align: center;
+    font-size:1.7rem;
+    margin-top:-180px;
+    border-bottom: solid 0.1px rgba(0, 0, 0, 0.321);
+    padding-bottom: 50px;
+}
+.categories{
+    display:flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+#foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ce78a2ab;
+    height:50vh;
+    padding:65px 0px 0px 0px;
+}
+.btmHead{
+    padding-bottom:20px;
+    font-size: 24px
+}
+.btm{
+    padding: 10px 0px;
+}
+.btm2{
+    padding: 10px 0px;
+}
+.btmOffer{
+    padding:0px 0px 30px 0px;
+}
+i{
+    padding: 0px 5px;
+}
+#sub{
+    height:40px;
+    width:50%;
+    background-color: #ce78a2ab;
+    margin: 15px 0px ;
+    font-size: 1.2rem;
+    color: white;
+}
+#follow .btm2:hover{
+    color: white;
+}
+#about .btm:hover{
+    color: white;
+}
+#sub:hover{
+    background-color: black;
+}
+li:hover{
+    padding-right:10px;
+}
